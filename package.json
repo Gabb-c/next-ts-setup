@@ -4,9 +4,11 @@
   "private": true,
   "author": {
     "name": "Gabb-c",
-    "url": ""
+    "url": "https://github.com/Gabb-c"
   },
-  "repository": {},
+  "repository": {
+    "url": "https://github.com/Gabb-c/react-ts-setup"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
