@@ -61,4 +61,9 @@
     ".prettierrc": "json",
     "*.tsx": "typescriptreact"
   },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  }
 }
