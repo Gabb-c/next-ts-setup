@@ -2,20 +2,19 @@ import React from 'react';
 import Head from 'next/head';
 
 import Logo from '../assets/logo.svg';
+import { Container, ImageContainer } from '../styles/pages/Home';
 
 const Home: React.FC = () => (
-  <div>
+  <Container>
     <Head>
       <title>Create Next App</title>
     </Head>
-
-    <main>
-
+    <ImageContainer>
       <Logo />
-      <h1>Hello world</h1>
-
-    </main>
-  </div>
+    </ImageContainer>
+    <h1>Next.js Structure</h1>
+    <p>Bootstraped with create next-app</p>
+  </Container>
 );
 
 export default Home;
