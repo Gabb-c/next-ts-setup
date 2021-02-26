@@ -1,8 +1,18 @@
+# Next.js Setup
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, run:
+
+```bash
+npm install # If you're using npm
+# or
+yarn # If you're using yarn
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -12,11 +22,35 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+This project uses [`Styled Components`](https://styled-components.com/) with [`Server Side Rendering`](https://nextjs.org/docs/basic-features/pages).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## ESLint config
+
+This project uses the [`Airbnb code pattern`](https://github.com/airbnb/javascript). If you want to edit, remove or add a new rule, please edit the `.eslintrc.json` file.
+
+If you're having trouble with ESLint rules, check the [`ESLint Documentation`](https://eslint.org/docs/user-guide/getting-started).
+
+## Extensions
+
+- aeschli.vscode-css-formatter
+- christian-kohler.path-intellisense
+- codezombiech.gitignore
+- DavidAnson.vscode-markdownlint
+- dbaeumer.vscode-eslint
+- eamodio.gitlens
+- ecmel.vscode-html-css
+- EditorConfig.EditorConfig
+- eg2.vscode-npm-script
+- mikestead.dotenv
+- ms-azuretools.vscode-docker
+- ms-vscode.cpptools
+- PKief.material-icon-theme // Optional
+- redhat.vscode-yaml
+- rocketseat.theme-omni // Optional
+- xabikos.JavaScriptSnippets
+- Zignd.html-css-class-completion
 
 ## Learn More
 
