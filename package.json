@@ -16,11 +16,13 @@
     "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "next": "10.0.7",
     "next-images": "^1.7.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.1",
+    "swr": "^0.4.2"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^10.0.7",
