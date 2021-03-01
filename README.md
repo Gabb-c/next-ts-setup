@@ -32,6 +32,16 @@ This project uses the [`Airbnb code pattern`](https://github.com/airbnb/javascri
 
 If you're having trouble with ESLint rules, check the [`ESLint Documentation`](https://eslint.org/docs/user-guide/getting-started).
 
+The recommended VSCode config on `.vscode/settings.json`, but make sure you have this options checked:
+
+`File > Preferences > Settings > Extensions > ESLint`
+
+[ESLint Formater](/examples/images/eslint-save.png)
+
+`File > Preferences > Settings > Text Editor`
+
+[Editor Format](/examples/images/eslint-format.png)
+
 ## Extensions
 
 - aeschli.vscode-css-formatter
