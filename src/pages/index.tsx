@@ -7,7 +7,7 @@ import { Container, ImageContainer } from '../styles/pages/Home';
 const Home: React.FC = () => (
   <Container>
     <Head>
-      <title>Create Next App</title>
+      <title>Next.js setup</title>
     </Head>
     <ImageContainer>
       <Logo />

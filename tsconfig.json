@@ -21,9 +21,11 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "src/tests/home.test.js"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "src/tests/*"
   ]
 }

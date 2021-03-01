@@ -35,5 +35,4 @@ const rotate = keyframes`
 export const ImageContainer = styled.div`
   width: 40rem;
   animation: ${rotate} 3s linear infinite;
-
 `;

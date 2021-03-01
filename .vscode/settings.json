@@ -53,7 +53,8 @@
     "mappers": "meta",
     "_shared": "shared",
     "eslint-config": "tools",
-    "kube": "kubernetes"
+    "kube": "kubernetes",
+    "_tests_": "test"
   },
   "files.associations": {
     ".sequelizerc": "javascript",
