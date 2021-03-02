@@ -6,6 +6,7 @@
     "name": "Gabb-c",
     "url": "https://github.com/Gabb-c"
   },
+  "description": "A React.js setup using Next.js",
   "repository": {
     "url": "https://github.com/Gabb-c/react-ts-setup"
   },
@@ -37,8 +38,8 @@
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "@types/styled-components": "^5.1.7",
-    "@typescript-eslint/eslint-plugin": "^4.15.2",
-    "@typescript-eslint/parser": "^4.15.2",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
     "babel-jest": "^26.6.3",
     "babel-plugin-inline-react-svg": "^2.0.1",
