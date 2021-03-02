@@ -1,6 +1,6 @@
 {
   "workbench.iconTheme": "material-icon-theme", // Optional
-  "workbench.colorTheme": "Omni", // Optional
+  "workbench.colorTheme": "Your-theme", // Optional
   "files.autoSave": "off",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -14,7 +14,6 @@
   "editor.codeActionsOnSave": { // This is super important
     "source.fixAll.eslint": true
   },
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.startupEditor": "newUntitledFile",
   "eslint.run": "onSave", // This is super important
   "eslint.alwaysShowStatus": true,
@@ -30,7 +29,7 @@
   "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": false,
   "eslint.packageManager": "yarn", // If you're working with npm, just change this to "eslint.packageManager": "npm"
-  "material-icon-theme.folders.associations": {
+  "material-icon-theme.folders.associations": { // If you're using material-icon-theme
     "infra": "app",
     "entities": "class",
     "domain": "class",

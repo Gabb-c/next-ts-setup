@@ -42,7 +42,7 @@ The recommended VSCode config on `.vscode/settings.json`, but make sure you have
 
 ![Editor Format](/examples/images/eslint-format.png)
 
-## Extensions
+## Recommended Extensions
 
 - aeschli.vscode-css-formatter
 - christian-kohler.path-intellisense
@@ -56,11 +56,11 @@ The recommended VSCode config on `.vscode/settings.json`, but make sure you have
 - mikestead.dotenv
 - ms-azuretools.vscode-docker
 - ms-vscode.cpptools
-- PKief.material-icon-theme // Optional
+- PKief.material-icon-theme
 - redhat.vscode-yaml
-- rocketseat.theme-omni // Optional
 - xabikos.JavaScriptSnippets
 - Zignd.html-css-class-completion
+- jpoissonnier.vscode-styled-components
 
 ## Learn More
 

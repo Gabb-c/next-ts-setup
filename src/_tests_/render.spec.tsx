@@ -1,17 +1,12 @@
 import React from 'react';
 // eslint-disable-next-line
-import { mount } from 'enzyme';
-import { ThemeProvider } from 'styled-components';
-import Home from '../pages/index';
-import theme from '../styles/theme';
+import { shallow } from 'enzyme';
+import Home from '../pages';
 
-describe('Test h1', () => {
-  it('Expect "Next.js Structure"', () => {
-    const wrap = mount(
-      <ThemeProvider theme={theme}>
-        <Home />
-      </ThemeProvider>,
-    );
-    expect(wrap.find('h1').text()).toEqual('Next.js Structure');
+describe('Test Home component', () => {
+  it('Check if component Home is rendered', () => {
+    const wrap = shallow(<Home />);
+
+    expect(wrap.exists()).toBe(true);
   });
 });
