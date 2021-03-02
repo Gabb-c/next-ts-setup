@@ -25,6 +25,7 @@
     "next-images": "^1.7.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-toastify": "^7.0.3",
     "styled-components": "^5.2.1",
     "swr": "^0.4.2"
   },

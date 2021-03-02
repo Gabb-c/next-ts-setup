@@ -1,6 +1,6 @@
 {
   "workbench.iconTheme": "material-icon-theme", // Optional
-  "workbench.colorTheme": "Your-theme", // Optional
+  "workbench.colorTheme": "Omni", // Your vscode theme
   "files.autoSave": "off",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
