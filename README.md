@@ -62,6 +62,14 @@ The recommended VSCode config on `.vscode/settings.json`, but make sure you have
 - Zignd.html-css-class-completion
 - jpoissonnier.vscode-styled-components
 
+There's a instalation script in `.vscode` folder. You can run it like this:
+
+```bash
+chmod +x install-ext.sh # Permission to execute
+# And then
+./install-ext.sh # Execute the script
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

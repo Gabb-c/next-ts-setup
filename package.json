@@ -1,7 +1,7 @@
 {
   "name": "react-ts-setup",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": {
     "name": "Gabb-c",
     "url": "https://github.com/Gabb-c"
