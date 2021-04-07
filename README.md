@@ -46,25 +46,9 @@ The recommended VSCode config on `.vscode/settings.json`, but make sure you have
 
 ## Recommended Extensions
 
-- aeschli.vscode-css-formatter
-- christian-kohler.path-intellisense
-- codezombiech.gitignore
-- DavidAnson.vscode-markdownlint
-- dbaeumer.vscode-eslint
-- eamodio.gitlens
-- ecmel.vscode-html-css
-- EditorConfig.EditorConfig
-- eg2.vscode-npm-script
-- mikestead.dotenv
-- ms-azuretools.vscode-docker
-- ms-vscode.cpptools
-- PKief.material-icon-theme
-- redhat.vscode-yaml
-- xabikos.JavaScriptSnippets
-- Zignd.html-css-class-completion
-- jpoissonnier.vscode-styled-components
+There's a file with the recommended extensions and a nstalation script in `.vscode` folder.
 
-There's a instalation script in `.vscode` folder. You can run it like this:
+You can run the script like this:
 
 ```bash
 chmod +x install-ext.sh # Permission to execute

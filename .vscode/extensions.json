@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "aeschli.vscode-css-formatter",
+    "christian-kohler.path-intellisense",
+    "codezombiech.gitignore",
+    "DavidAnson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "EditorConfig.EditorConfig",
+    "eg2.vscode-npm-script",
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.cpptools",
+    "PKief.material-icon-theme",
+    "redhat.vscode-yaml",
+    "xabikos.JavaScriptSnippets",
+    "Zignd.html-css-class-completion",
+    "jpoissonnier.vscode-styled-components"
+  ]
+}
