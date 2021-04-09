@@ -30,7 +30,7 @@
     "swr": "^0.5.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.14",
+    "@babel/core": "^7.13.15",
     "@next/bundle-analyzer": "^10.1.3",
     "@types/enzyme": "^3.10.8",
     "@types/jest": "^26.0.22",
@@ -49,10 +49,10 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "jest": "^26.6.3",
     "lodash": "^4.17.21",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.4"
   }
 }
