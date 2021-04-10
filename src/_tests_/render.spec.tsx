@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line
 import { shallow } from 'enzyme';
 import Home from '../pages';
 
