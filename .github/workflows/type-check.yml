@@ -3,7 +3,8 @@ name: Type Check
 on: [push, pull_request]
 
 jobs:
-  build:
+  code:
+    name: Type checking code
     runs-on: ubuntu-latest
 
     strategy:

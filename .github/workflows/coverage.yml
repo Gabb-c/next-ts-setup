@@ -3,7 +3,8 @@ name: Coverage
 on: [push, pull_request]
 
 jobs:
-  build:
+  code:
+    name: Coverage Report
     runs-on: ubuntu-latest
 
     strategy:

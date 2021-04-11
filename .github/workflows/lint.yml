@@ -3,7 +3,8 @@ name: Lint
 on: [push, pull_request]
 
 jobs:
-  build:
+  code:
+    name: Lint code
     runs-on: ubuntu-latest
 
     strategy:

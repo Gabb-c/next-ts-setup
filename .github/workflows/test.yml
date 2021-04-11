@@ -3,7 +3,8 @@ name: Test
 on: [push, pull_request]
 
 jobs:
-  build:
+  code:
+    name: Test code
     runs-on: ubuntu-latest
 
     strategy:
