@@ -16,6 +16,7 @@
     "start": "next start",
     "test": "jest",
     "lint": "eslint src --ext js,ts,tsx",
+    "lint:fix": "eslint src --ext js,ts,tsx --fix",
     "tsc": "tsc --skipLibCheck",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
