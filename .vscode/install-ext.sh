@@ -10,8 +10,6 @@ code --install-extension eg2.vscode-npm-script &&
 code --install-extension mikestead.dotenv &&
 code --install-extension ms-azuretools.vscode-docker &&
 code --install-extension ms-vscode.cpptools &&
-code --install-extension PKief.material-icon-theme &&
 code --install-extension redhat.vscode-yaml &&
-code --install-extension rocketseat.theme-omni &&
 code --install-extension xabikos.JavaScriptSnippets &&
 code --install-extension Zignd.html-css-class-completion
