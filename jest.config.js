@@ -3,7 +3,8 @@ module.exports = {
     '**/*.{jsx,ts,tsx}',
     '!**/*.d.ts',  //  Exclude all type declaration files
     '!**/node_modules/**',  //  Exclude all files in node_modules
-    '!**/.next/**'  //  Exclude all files in the .next folder
+    '!**/.next/**',  //  Exclude all files in the .next folder
+    '!**/styles/**'
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
