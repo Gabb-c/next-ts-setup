@@ -56,6 +56,17 @@ chmod +x install-ext.sh # Permission to execute
 ./install-ext.sh # Execute the script
 ```
 
+## Update your repository with this template
+
+As Next.js releases more features, this template will be updated. So keep your repository up to date
+by doing these steps:
+
+```bash
+git remote add template https://github.com/Gabb-c/gabbc-page.git
+git fetch --all
+git merge template/[branch to merge] # If git refuses, add the flag --allow-unrelated-histories
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
