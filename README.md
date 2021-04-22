@@ -2,6 +2,13 @@
 
 ![nxt](https://user-images.githubusercontent.com/65926741/115777782-1a7bc500-a38c-11eb-8312-927963bab346.png)
 
+<p align="center">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/next-ts-setup/Build?color=000000&style=for-the-badge">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/next-ts-setup/Build?color=000000&label=Lint&style=for-the-badge">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/next-ts-setup/Test?color=000000&label=TESt&style=for-the-badge">
+  <img alt="GitHub" src="https://img.shields.io/github/license/Gabb-c/next-ts-setup?color=000000&style=for-the-badge">
+</p>
+
 # Configure less, Code more!
 
 A Next.js setup integrating with TypeScript
