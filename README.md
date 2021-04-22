@@ -4,9 +4,20 @@
 
 # Configure less, Code more!
 
-<span style="font-family:Papyrus; font-size: 10rem;">A Next.js setup integrating with TypeScript</span>
+A Next.js setup integrating with TypeScript
 
 </div>
+
+
+## Features
+
+- Next.js integrating with TypeScript
+- [Styled Components](https://styled-components.com/) with [SSR](https://nextjs.org/docs/basic-features/pages) (Server Side Rendering)
+- Webpack 5
+- [ESLint Airbnb configuration](https://github.com/airbnb/javascript)
+- Editorconfig
+- Jest with Enzyme
+- Test, Build and Lint workflows
 
 ## Getting Started
 
@@ -30,11 +41,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `src/pages/index.js`. The page auto-updates as you edit the file.
 
-This project uses [`Styled Components`](https://styled-components.com/) with [`Server Side Rendering`](https://nextjs.org/docs/basic-features/pages).
-
-## ESLint config
-
-This project uses the [`Airbnb code pattern`](https://github.com/airbnb/javascript). If you want to edit, remove or add a new rule, please edit the `.eslintrc.json` file.
+## ESLint
 
 If you're having trouble with ESLint rules, check the [`ESLint Documentation`](https://eslint.org/docs/user-guide/getting-started).
 
