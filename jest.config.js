@@ -7,6 +7,10 @@ module.exports = {
     '!**/styles/**'
   ],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  testMatch: [
+    "**/__tests__/**/*.[jt]s?(x)",
+    "**/?(*.)+(spec|test).[tj]s?(x)"
+  ],
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': '<rootDir>/node_modules/babel-jest'
