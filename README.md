@@ -1,8 +1,11 @@
-[![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
+<div align="center" justify="center">
 
-# Next.js Setup
+![nxt](https://user-images.githubusercontent.com/65926741/115777782-1a7bc500-a38c-11eb-8312-927963bab346.png)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Configure less, code more!
+A Next.js setup integrating with TypeScript
+
+</div>
 
 ## Getting Started
 
