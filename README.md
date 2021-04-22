@@ -3,7 +3,7 @@
 ![nxt](https://user-images.githubusercontent.com/65926741/115777782-1a7bc500-a38c-11eb-8312-927963bab346.png)
 
 # Configure less, code more!
-A Next.js setup integrating with TypeScript
+## `A Next.js setup integrating with TypeScript`
 
 </div>
 
