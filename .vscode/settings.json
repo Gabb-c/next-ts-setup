@@ -29,6 +29,7 @@
   "files.associations": {
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
+    ".eslintrc": "json",
     ".prettierrc": "json",
     "*.tsx": "typescriptreact"
   },
