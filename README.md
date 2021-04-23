@@ -25,6 +25,7 @@ A Next.js setup integrating with TypeScript
 - Editorconfig
 - Jest with Enzyme
 - Test, Build and Lint workflows
+- [Commit Lint](https://commitlint.js.org/#/) with [Husky](https://typicode.github.io/husky/#/)
 
 ## Getting Started
 
