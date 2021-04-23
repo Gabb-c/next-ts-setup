@@ -32,14 +32,7 @@
       "error",
       {
         "devDependencies": [
-          "**/*.test.js",
-          "**/*.test.jsx",
-          "**/*.test.ts",
-          "**/*.test.tsx",
-          "**/*.spec.js",
-          "**/*.spec.jsx",
-          "**/*.spec.ts",
-          "**/*.spec.tsx"
+          "**/?(*.)+(spec|test).[tj]s?(x)"
         ]
       }
     ],
