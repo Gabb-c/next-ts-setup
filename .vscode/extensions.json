@@ -8,13 +8,13 @@
     "eamodio.gitlens",
     "ecmel.vscode-html-css",
     "EditorConfig.EditorConfig",
-    "eg2.vscode-npm-script",
+    "jpoissonnier.vscode-styled-components",
     "mikestead.dotenv",
-    "ms-azuretools.vscode-docker",
     "ms-vscode.cpptools",
+    "ms-vscode.vscode-typescript-next",
     "redhat.vscode-yaml",
+    "VisualStudioExptTeam.vscodeintellicode",
     "xabikos.JavaScriptSnippets",
-    "Zignd.html-css-class-completion",
-    "jpoissonnier.vscode-styled-components"
-  ]
+    "Zignd.html-css-class-completion"
+  ],
 }
