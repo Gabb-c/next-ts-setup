@@ -18,13 +18,13 @@ A Next.js setup integrating with TypeScript
 
 ## Features
 
-- Next.js integrating with TypeScript
+- [Next.js](https://nextjs.org/docs/getting-started) integrating with [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/) with [SSR](https://nextjs.org/docs/basic-features/pages) (Server Side Rendering)
-- Webpack 5
+- [Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)
 - [ESLint Airbnb configuration](https://github.com/airbnb/javascript)
-- Editorconfig
-- Jest with Enzyme
-- Test, Build and Lint workflows
+- [Editorconfig](https://editorconfig.org/)
+- [Jest](https://jestjs.io/) with [Enzyme](https://enzymejs.github.io/enzyme/)
+- [Test](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/lint.yml), [Build](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/build.yml) and [Lint](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/lint.yml) workflows
 - [Commit Lint](https://commitlint.js.org/#/) with [Husky](https://typicode.github.io/husky/#/)
 
 ## Getting Started
