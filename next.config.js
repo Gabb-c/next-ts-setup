@@ -1,5 +1,4 @@
 const withImages = require('next-images');
-const withBundleAnalyzer = require('@next/bundle-analyzer')
 
 // Enable inline images
 module.exports = withImages({
@@ -8,9 +7,10 @@ module.exports = withImages({
 });
 
 // Bundle analyzer plugin
-module.exports = withBundleAnalyzer({
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
-});
+})
+module.exports = withBundleAnalyzer({});
 
 // Enable Webpack 5
 module.exports = {
