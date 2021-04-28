@@ -9,7 +9,7 @@ on:
 
 jobs:
   code:
-    name: Lint code
+    name: Audit dependencies
     runs-on: ubuntu-latest
 
     strategy:
