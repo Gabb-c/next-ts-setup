@@ -21,6 +21,7 @@ A Next.js setup integrating with TypeScript
 - [Next.js](https://nextjs.org/docs/getting-started) integrating with [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/) with [SSR](https://nextjs.org/docs/basic-features/pages) (Server Side Rendering)
 - [Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)
+- [Sass](https://sass-lang.com/)
 - [ESLint Airbnb configuration](https://github.com/airbnb/javascript)
 - [Editorconfig](https://editorconfig.org/)
 - [Jest](https://jestjs.io/) with [Enzyme](https://enzymejs.github.io/enzyme/)
