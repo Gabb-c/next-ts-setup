@@ -22,7 +22,8 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "analyze": "BUNDLE_ANALYZE=both yarn build",
-    "find:unused": "next-unused"
+    "find:unused": "next-unused",
+    "prepare": "husky install"
   },
   "dependencies": {
     "axios": "^0.21.1",
