@@ -13,7 +13,8 @@ module.exports = {
   ],
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   transform: {
-    '^.+\\.(js|jsx|ts|tsx)$': '<rootDir>/node_modules/babel-jest'
+    '^.+\\.[tj]sx?$': '<rootDir>/node_modules/babel-jest',
+    "^.+\\.mdx$": "@storybook/addon-docs/jest-transform-mdx"
   },
   transformIgnorePatterns: [
     '/node_modules/',
