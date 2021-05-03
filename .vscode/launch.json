@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "attach",
+      "name": "Launch Program",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "port": 9229,
+      "sourceMaps": true,
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+      ],
+    }
+  ]
+}
+// Note: Using the default configuration from https://nextjs.org/docs/advanced-features/debugging throw a sourceMap error...
+// To debug, run "yarn dev:debug" in the console and press F5
