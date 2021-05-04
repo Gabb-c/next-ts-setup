@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./",
     "target": "ESNext",
     "lib": [
       "dom",
@@ -20,27 +20,30 @@
     "jsx": "preserve",
     "paths": {
       "@__tests__/*": [
-        "src/__tests__/*"
+        "./src/__tests__/*"
       ],
       "@assets/*": [
-        "src/assets/*"
+        "./src/assets/*"
       ],
       "@pages/*": [
-        "src/pages/*"
+        "./src/pages/*"
       ],
       "@styles/*": [
-        "src/__tests__/*"
+        "./src/styles/*"
       ]
     }
   },
   "include": [
     "next-env.d.ts",
     "**/*.d.ts",
-    "**/*.[jt]s?(x)"
+    "**/*.ts",
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules",
-    "**/__tests__/**/*.[jt]s?(x)",
-    "**/?(*.)+(spec|test).[tj]s?(x)"
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.test.ts",
+    "**/*.spec.tsx"
   ]
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Button, ButtonProps } from './Button';
+import Button, { ButtonProps } from './index';
 
 export default {
   title: 'Example/Button',
@@ -26,12 +26,12 @@ Secondary.args = {
 
 export const Large = Template.bind({});
 Large.args = {
-  size: 'large',
+  size: 'Large',
   label: 'Button',
 };
 
 export const Small = Template.bind({});
 Small.args = {
-  size: 'small',
+  size: 'Small',
   label: 'Button',
 };
