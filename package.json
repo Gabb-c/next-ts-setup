@@ -13,7 +13,8 @@
   "scripts": {
     "dev": "next dev",
     "dev:debug": "NODE_OPTIONS='--inspect' next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "test": "jest",
     "lint": "eslint src --ext js,ts,tsx --ignore-path .prettierignore",
