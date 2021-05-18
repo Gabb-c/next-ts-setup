@@ -23,7 +23,9 @@
     "test:coverage": "jest --coverage",
     "analyze": "BUNDLE_ANALYZE=both yarn build",
     "find:unused": "next-unused",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -41,6 +43,10 @@
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@next/bundle-analyzer": "^10.2.3",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
     "@types/enzyme": "^3.10.8",
     "@types/jest": "^26.0.23",
     "@types/lodash": "^4.14.170",
@@ -53,6 +59,7 @@
     "@typescript-eslint/parser": "^4.26.0",
     "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
     "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
     "babel-plugin-inline-react-svg": "^2.0.1",
     "enzyme": "^3.11.0",
     "eslint": "^7.27.0",

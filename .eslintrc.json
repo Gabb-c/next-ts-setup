@@ -36,20 +36,12 @@
       "error",
       {
         "devDependencies": [
-          "**/?(*.)+(spec|test).[tj]s?(x)"
+          "**/?(*.)+(spec|test).[tj]s?(x)",
+          "**/*.stories.tsx"
         ]
       }
     ],
     "react/prop-types": "off",
-    "indent": [
-      "error",
-      2,
-      {
-        "ignoredNodes": [
-          "JSXElement *"
-        ]
-      }
-    ],
     "react/jsx-indent": [
       "error",
       2
