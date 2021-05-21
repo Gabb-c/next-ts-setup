@@ -40,7 +40,7 @@
     "@babel/core": "^7.14.3",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@next/bundle-analyzer": "^10.2.0",
+    "@next/bundle-analyzer": "^10.2.2",
     "@types/enzyme": "^3.10.8",
     "@types/jest": "^26.0.23",
     "@types/lodash": "^4.14.169",
