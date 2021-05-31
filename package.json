@@ -40,7 +40,7 @@
     "@babel/core": "^7.14.3",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@next/bundle-analyzer": "^10.2.2",
+    "@next/bundle-analyzer": "^10.2.3",
     "@types/enzyme": "^3.10.8",
     "@types/jest": "^26.0.23",
     "@types/lodash": "^4.14.169",
@@ -74,7 +74,7 @@
     "next-unused": "^0.0.6",
     "prettier": "^2.3.0",
     "supertest": "^6.1.3",
-    "typescript": "^4.2.4"
+    "typescript": "^4.3.2"
   },
   "next-unused": {
     "alias": {},
