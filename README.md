@@ -9,18 +9,17 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/Gabb-c/next-ts-setup?color=000000&labelColor=ff9e00&style=for-the-badge">
 </p>
 
-# Configure less, Code more!
+# Configure less, Code more
 
 A Next.js setup integrating with TypeScript
 
 </div>
 
-
 ## Features
 
 - [Next.js](https://nextjs.org/docs/getting-started) integrating with [TypeScript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/) with [SSR](https://nextjs.org/docs/basic-features/pages) (Server Side Rendering)
-- [Storybook](https://storybook.js.org/) (Coming soon...)
+- [Storybook](https://storybook.js.org/)
 - [Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)
 - [Sass](https://sass-lang.com/)
 - [ESLint Airbnb configuration](https://github.com/airbnb/javascript)

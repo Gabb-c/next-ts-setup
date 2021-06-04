@@ -28,7 +28,7 @@
     "test:ci": "jest --ci --runInBand",
     "analyze": "BUNDLE_ANALYZE=both yarn build",
     "find:unused": "next-unused",
-    "prepare": "husky install",
+    "prepare": "is-ci || husky install",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
