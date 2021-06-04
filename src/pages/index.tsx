@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Logo from '../assets/logo.svg';
-import { Container, ImageContainer } from '../styles/pages/Home';
+import { Container, ImageContainer } from '../styles/pages/home';
 
 const Home: React.FC = () => (
   <Container>

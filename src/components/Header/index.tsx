@@ -1,6 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access */
 import React from 'react';
-
-import Button from '../Button';
 import styles from './header.module.scss';
 
 export interface HeaderProps {
@@ -10,7 +9,7 @@ export interface HeaderProps {
   onCreateAccount: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ user, onLogin, onLogout, onCreateAccount }) => (
+const Header: React.FC<HeaderProps> = () => (
   <header>
     <div className={styles.wrapper}>
       <div>
@@ -32,18 +31,10 @@ const Header: React.FC<HeaderProps> = ({ user, onLogin, onLogout, onCreateAccoun
         </svg>
         <h1>Acme</h1>
       </div>
-      <div>
-        {user ? (
-          <Button size="Small" onClick={onLogout} label="Log out" />
-        ) : (
-          <>
-            <Button size="Small" onClick={onLogin} label="Log in" />
-            <Button primary size="Small" onClick={onCreateAccount} label="Sign up" />
-          </>
-        )}
-      </div>
+      <div />
     </div>
   </header>
 );
 
 export default Header;
+/* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access */

@@ -7,10 +7,15 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "airbnb",
+    "airbnb-typescript",
     "airbnb/hooks",
     "prettier",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:jest/recommended",
+    "plugin:promise/recommended",
+    "plugin:eslint-comments/recommended",
+    "plugin:unicorn/recommended",
     "plugin:jsx-a11y/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -19,19 +24,28 @@
       "jsx": true
     },
     "ecmaVersion": 12,
-    "sourceType": "module"
+    "sourceType": "module",
+    "project": "./tsconfig.eslint.json"
   },
   "plugins": [
     "react",
     "prettier",
     "@typescript-eslint",
-    "jsx-a11y"
+    "jsx-a11y",
+    "jest",
+    "eslint-comments",
+    "promise",
+    "unicorn"
   ],
   "rules": {
     "prettier/prettier": "error",
     "no-use-before-define": "off",
+    "eslint-comments/no-unused-disable": "error",
     "import/no-unresolved": 0,
     "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/no-array-for-each": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
