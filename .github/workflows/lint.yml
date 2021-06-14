@@ -30,11 +30,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Cache dependencies
-        uses: c-hive/gha-yarn-cache@v1
-
       - name: Install dependencies
-        run: yarn --frozen-lockfile --check-files
+        uses: bahmutov/npm-install@v1.7.7
+        with:
+          install-command: yarn --frozen-lockfile --check-files --silent
 
       - name: Lint
         run: yarn lint
