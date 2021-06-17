@@ -16,7 +16,8 @@
     "plugin:promise/recommended",
     "plugin:eslint-comments/recommended",
     "plugin:unicorn/recommended",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
+    "plugin:@next/next/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -35,7 +36,8 @@
     "jest",
     "eslint-comments",
     "promise",
-    "unicorn"
+    "unicorn",
+    "@next/next"
   ],
   "rules": {
     "prettier/prettier": "error",

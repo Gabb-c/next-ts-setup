@@ -16,7 +16,5 @@ module.exports = withBundleAnalyzer({});
 // The script analyze, in the package.json, will not work with Webpack 5 (will be fixed) 
 // So you can comment the lines, then Next will use Webpack 4
 module.exports = {
-  future: {
-    webpack5: true
-  }
+  webpack5: true
 }
