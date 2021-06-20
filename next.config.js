@@ -12,9 +12,13 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 module.exports = withBundleAnalyzer({});
 
-// Enable Webpack 5
-// The script analyze, in the package.json, will not work with Webpack 5 (will be fixed) 
-// So you can comment the lines, then Next will use Webpack 4
-module.exports = {
+// @ts-check
+
+/**
+ * @type {import('next/dist/next-server/server/config').NextConfig}
+ **/
+const nextConfig = {
   webpack5: true
 }
+
+module.exports = nextConfig;
