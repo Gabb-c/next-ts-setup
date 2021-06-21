@@ -1,4 +1,8 @@
 {
-  "src/**/*.{js,ts,tsx}": ["yarn lint:fix", "yarn format"],
+  "src/**/*.{js,ts,tsx}": [
+    "eslint src --ext js,ts,tsx --fix --ignore-path .prettierignore",
+    "prettier 'src/**/*.[jt]s?(x)' --write",
+    "git add ."
+  ],
   "**/*.{md,mdx,json}": ["prettier '**/*.{md,mdx,json}' --write", "git add ."]
 }
