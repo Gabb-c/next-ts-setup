@@ -51,26 +51,16 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": [
-          "**/?(*.)+(spec|test).[tj]s?(x)",
-          "**/*.stories.[tj]s?(x)"
-        ]
+        "devDependencies": ["**/?(*.)+(spec|test).[tj]s?(x)", "**/*.stories.[tj]s?(x)"]
       }
     ],
     "react/prop-types": "off",
-    "react/jsx-indent": [
-      "error",
-      2
-    ],
+    "react/jsx-indent": ["error", 2],
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".tsx"
-        ]
+        "extensions": [".js", ".jsx", ".tsx"]
       }
     ]
   }
