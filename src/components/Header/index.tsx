@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access */
 import React from 'react';
 import styles from './header.module.scss';
 
@@ -37,4 +36,3 @@ const Header: React.FC<HeaderProps> = () => (
 );
 
 export default Header;
-/* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access */
