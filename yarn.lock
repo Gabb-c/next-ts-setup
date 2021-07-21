@@ -3338,7 +3338,7 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/experimental-utils@4.28.3":
+"@typescript-eslint/experimental-utils@4.28.3", "@typescript-eslint/experimental-utils@^4.0.1":
   version "4.28.3"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-4.28.3.tgz#976f8c1191b37105fd06658ed57ddfee4be361ca"
   integrity sha512-zZYl9TnrxwEPi3FbyeX0ZnE8Hp7j3OCR+ELoUfbwGHGxWnHg9+OqSmkw2MoCVpZksPCZYpQzC559Ee9pJNHTQw==
@@ -3347,18 +3347,6 @@
     "@typescript-eslint/scope-manager" "4.28.3"
     "@typescript-eslint/types" "4.28.3"
     "@typescript-eslint/typescript-estree" "4.28.3"
-    eslint-scope "^5.1.1"
-    eslint-utils "^3.0.0"
-
-"@typescript-eslint/experimental-utils@^4.0.1":
-  version "4.26.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-4.26.1.tgz#a35980a2390da9232aa206b27f620eab66e94142"
-  integrity sha512-sQHBugRhrXzRCs9PaGg6rowie4i8s/iD/DpTB+EXte8OMDfdCG5TvO73XlO9Wc/zi0uyN4qOmX9hIjQEyhnbmQ==
-  dependencies:
-    "@types/json-schema" "^7.0.7"
-    "@typescript-eslint/scope-manager" "4.26.1"
-    "@typescript-eslint/types" "4.26.1"
-    "@typescript-eslint/typescript-estree" "4.26.1"
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
@@ -6635,10 +6623,10 @@ eslint-plugin-import@^2.14.0, eslint-plugin-import@^2.22.1, eslint-plugin-import
     resolve "^1.20.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^24.3.6:
-  version "24.3.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.3.6.tgz#5f0ca019183c3188c5ad3af8e80b41de6c8e9173"
-  integrity sha512-WOVH4TIaBLIeCX576rLcOgjNXqP+jNlCiEmRgFTfQtJ52DpwnIQKAVGlGPAN7CZ33bW6eNfHD6s8ZbEUTQubJg==
+eslint-plugin-jest@^24.3.7:
+  version "24.3.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.3.7.tgz#a4deaa9e88182b92533a9c25cc4f3c369d7f33eb"
+  integrity sha512-pXED2NA4q2M/5mxlN6GyuUXAFJndT0uosOkQCHaUED9pqgBPd89ZzpcZEU6c5HtZNahC00M36FkwLdDHMDqaHw==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 
