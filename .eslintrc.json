@@ -17,7 +17,9 @@
     "plugin:eslint-comments/recommended",
     "plugin:unicorn/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:@next/next/recommended"
+    "plugin:react/recommended",
+    "plugin:@next/next/recommended",
+    "plugin:import/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -37,7 +39,8 @@
     "eslint-comments",
     "promise",
     "unicorn",
-    "@next/next"
+    "@next/next",
+    "import"
   ],
   "rules": {
     "prettier/prettier": "error",
@@ -63,5 +66,10 @@
         "extensions": [".js", ".jsx", ".tsx"]
       }
     ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }
