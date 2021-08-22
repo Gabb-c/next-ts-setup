@@ -6,9 +6,6 @@
     "jest": true
   },
   "extends": [
-    "plugin:react/recommended",
-    "airbnb-typescript",
-    "airbnb/hooks",
     "prettier",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
@@ -16,10 +13,7 @@
     "plugin:promise/recommended",
     "plugin:eslint-comments/recommended",
     "plugin:unicorn/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:react/recommended",
-    "plugin:@next/next/recommended",
-    "plugin:import/recommended"
+    "plugin:@next/next/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -31,45 +25,19 @@
     "project": "./tsconfig.eslint.json"
   },
   "plugins": [
-    "react",
     "prettier",
     "@typescript-eslint",
-    "jsx-a11y",
     "jest",
     "eslint-comments",
     "promise",
     "unicorn",
-    "@next/next",
-    "import"
+    "@next/next"
   ],
   "rules": {
     "prettier/prettier": "error",
     "no-use-before-define": "off",
     "eslint-comments/no-unused-disable": "error",
-    "import/no-unresolved": 0,
-    "import/extensions": "off",
-    "import/prefer-default-export": "off",
     "unicorn/prevent-abbreviations": "off",
-    "unicorn/no-array-for-each": "off",
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": ["**/?(*.)+(spec|test).[tj]s?(x)", "**/*.stories.[tj]s?(x)"]
-      }
-    ],
-    "react/prop-types": "off",
-    "react/jsx-indent": ["error", 2],
-    "react/jsx-props-no-spreading": "off",
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [".js", ".jsx", ".tsx"]
-      }
-    ]
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
+    "unicorn/no-array-for-each": "off"
   }
 }
