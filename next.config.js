@@ -18,7 +18,7 @@ module.exports = withBundleAnalyzer({});
  * @type {import('next/dist/next-server/server/config').NextConfig}
  **/
 const nextConfig = {
-  webpack5: true,
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;
