@@ -51,7 +51,7 @@
     "@next/eslint-plugin-next": "^11.1.2",
     "@storybook/addon-a11y": "^6.3.9",
     "@storybook/addon-actions": "^6.3.9",
-    "@storybook/addon-docs": "^6.3.9",
+    "@storybook/addon-docs": "^6.3.10",
     "@storybook/addon-essentials": "^6.3.9",
     "@storybook/addon-links": "^6.3.9",
     "@storybook/preset-scss": "^1.0.3",
