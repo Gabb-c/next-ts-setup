@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <Component {...pageProps} />
-      <ToastContainer />
+      <ToastContainer hideProgressBar closeButton={false} />
     </>
   );
 }
