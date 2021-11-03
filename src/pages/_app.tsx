@@ -6,7 +6,7 @@ import { toast, ToastContainer } from 'react-toastify';
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   React.useEffect(() => {
-    toast.success('Next.js is so nice!');
+    toast.dark('Next.js is so nice!');
   }, []);
 
   return (
