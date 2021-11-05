@@ -5,5 +5,5 @@
     "git add ."
   ],
   "**/*.{md,mdx,json}": ["prettier '**/*.{md,mdx,json}' --write", "git add ."],
-  "src/**/*.scss": ["yarn stylelint src/**/*.{scss,css} --fix", "git add ."]
+  "src/**/*.{scss,css}": ["yarn stylelint src/**/*.{scss,css} --fix", "git add ."]
 }
