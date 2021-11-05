@@ -28,13 +28,13 @@
   flex-grow: 1;
   text-decoration: none;
   color: black;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .title a {
   color: black;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   transition: 0.25s;
 }
 
@@ -45,14 +45,14 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   background-color: black;
-  color: white
+  color: white;
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .title,
@@ -64,7 +64,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .code {
@@ -73,8 +73,15 @@
   border-radius: 22px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family:
+    Menlo,
+    Monaco,
+    "Lucida Console",
+    "Liberation Mono",
+    "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono",
+    "Courier New",
+    monospace;
 }
 
 .grid {
@@ -90,7 +97,7 @@
   padding: 1.5rem;
   text-align: left;
   color: inherit;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 12px;
@@ -106,7 +113,7 @@
 }
 
 .card h2 {
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem;
   font-size: 1.5rem;
 }
 

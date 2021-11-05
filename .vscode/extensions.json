@@ -1,20 +1,20 @@
 {
   "recommendations": [
-    "aeschli.vscode-css-formatter",
     "christian-kohler.path-intellisense",
     "codezombiech.gitignore",
-    "DavidAnson.vscode-markdownlint",
+    "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "eamodio.gitlens",
     "ecmel.vscode-html-css",
-    "EditorConfig.EditorConfig",
+    "editorconfig.editorconfig",
     "jpoissonnier.vscode-styled-components",
     "mikestead.dotenv",
     "ms-vscode.cpptools",
     "ms-vscode.vscode-typescript-next",
     "redhat.vscode-yaml",
-    "VisualStudioExptTeam.vscodeintellicode",
-    "xabikos.JavaScriptSnippets",
-    "Zignd.html-css-class-completion"
+    "visualstudioexptteam.vscodeintellicode",
+    "xabikos.javascriptsnippets",
+    "zignd.html-css-class-completion",
+    "stylelint.vscode-stylelint"
   ],
 }

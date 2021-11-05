@@ -16,9 +16,8 @@
     "build": "next build",
     "export": "next build && next export",
     "start": "next start",
-    "lint": "eslint src --ext js,ts,tsx --ignore-path .prettierignore",
-    "lint:fix": "eslint src --ext js,ts,tsx --fix --ignore-path .prettierignore",
-    "lint:ci": "yarn lint:fix && yarn format && yarn sort",
+    "lint": "eslint src --ext js,ts,tsx --ignore-path .prettierignore && yarn stylelint src/**/*.{scss,css}",
+    "lint:fix": "eslint src --ext js,ts,tsx --fix --ignore-path .prettierignore && yarn stylelint src/**/*.{scss,css} --fix",
     "format": "prettier 'src/**/*.[jt]s?(x)' --write",
     "sort": "sort-package-json package.json",
     "tsc": "tsc --skipLibCheck",
@@ -28,9 +27,7 @@
     "test:ci": "jest --ci --runInBand --bail",
     "analyze": "BUNDLE_ANALYZE=both yarn build",
     "find:unused": "next-unused",
-    "prepare": "is-ci || husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "prepare": "is-ci || husky install"
   },
   "dependencies": {
     "axios": "^0.24.0",
@@ -77,6 +74,10 @@
     "sass-loader": "^12.3.0",
     "sort-package-json": "^1.52.0",
     "style-loader": "^3.3.1",
+    "stylelint": "^14.0.1",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-config-standard-scss": "^2.0.1",
+    "stylelint-scss": "^4.0.0",
     "ts-jest": "^27.0.7",
     "typescript": "^4.4.4"
   },

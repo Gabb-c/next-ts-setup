@@ -5,3 +5,5 @@ coverage/
 public/
 .github/
 .vscode/
+**/*.scss
+**/*.css
