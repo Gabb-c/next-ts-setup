@@ -33,7 +33,7 @@
 
 .title a {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
   font-family: Inter, sans-serif;
   transition: 0.25s;
 }
@@ -44,6 +44,7 @@
   padding: 1.5rem;
   border: 1px solid #eaeaea;
   border-radius: 10px;
+  text-decoration: none;
   background-color: black;
   color: white;
 }
