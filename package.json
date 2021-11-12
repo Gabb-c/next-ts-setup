@@ -72,7 +72,7 @@
     "next-unused": "^0.0.6",
     "prettier": "^2.4.1",
     "sass-loader": "^12.3.0",
-    "sort-package-json": "^1.52.0",
+    "sort-package-json": "^1.53.0",
     "style-loader": "^3.3.1",
     "stylelint": "^14.0.1",
     "stylelint-config-standard": "^23.0.0",
