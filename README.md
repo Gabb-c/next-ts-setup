@@ -8,11 +8,6 @@
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Gabb-c/next-ts-setup/Test?color=000000&labelColor=4cc9f0&label=TESt&style=for-the-badge&logo=jest">
   <img alt="GitHub" src="https://img.shields.io/github/license/Gabb-c/next-ts-setup?color=000000&labelColor=ff9e00&style=for-the-badge&logo=github">
 </p>
-
-# Configure less, Code more
-
-A Next.js setup integrating with TypeScript
-
 </div>
 
 ## Features
