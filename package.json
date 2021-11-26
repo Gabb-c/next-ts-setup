@@ -71,7 +71,7 @@
     "jest": "^27.3.1",
     "lint-staged": "^12.1.2",
     "next-unused": "^0.0.6",
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.0",
     "sass-loader": "^12.3.0",
     "sort-package-json": "^1.53.1",
     "style-loader": "^3.3.1",
