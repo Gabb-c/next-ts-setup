@@ -1,20 +1,18 @@
-module.exports = {
-  collectCoverageFrom: [
-    '**/*.{jsx,ts,tsx}',
-    '!**/*.d.ts', //  Exclude all type declaration files
-    '!**/node_modules/**', //  Exclude all files in node_modules
-    '!**/.next/**', //  Exclude all files in the .next folder
-    '!**/styles/**',
-  ],
+const nextJest = require('next/jest');
+
+const createJestConfig = nextJest({
+  // Provide the path to your Next.js app to load next.config.js and .env files in your test environment
+  dir: './',
+});
+
+/** */
+const customJestConfig = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-  testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[tj]s?(x)'],
-  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
-  transform: {
-    '^.+\\.[tj]sx?$': ['babel-jest', { presets: ['next/babel'] }],
-    //'^.+\\.mdx$': '@storybook/addon-docs/jest-transform-mdx',
-  },
-  transformIgnorePatterns: ['/node_modules/', '^.+\\.module\\.(css|sass|scss|less)$'],
   moduleNameMapper: {
-    '^.+\\.module\\.(css|sass|scss|less)$': 'identity-obj-proxy',
+    // Handle module aliases (this will be automatically configured for you soon)
+    '^@/components/(.*)$': '<rootDir>/components/$1',
   },
 };
+
+// createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async
+module.exports = createJestConfig(customJestConfig);

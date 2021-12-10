@@ -1,11 +1,17 @@
+/** @jest-environment jsdom */
+
 import React from 'react';
-import { shallow } from 'enzyme';
-import Home from '../pages';
+import { render, screen } from '@testing-library/react';
+import Home from '../pages/index';
 
-describe('Test Home component', () => {
-  it('Check if component Home is rendered', () => {
-    const wrap = shallow(<Home />);
+describe('Home', () => {
+  it('renders a heading', () => {
+    render(<Home />);
 
-    expect(wrap.exists()).toBe(true);
+    const heading = screen.getByRole('heading', {
+      name: /welcome to next\.js!/i,
+    });
+
+    expect(heading).toBeInTheDocument();
   });
 });

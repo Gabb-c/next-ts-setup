@@ -12,16 +12,14 @@
 
 ## Features
 
-- [Next.js](https://nextjs.org/docs/getting-started) integrating with [TypeScript](https://www.typescriptlang.org/)
-- [Styled Components](https://styled-components.com/) with [SSR](https://nextjs.org/docs/basic-features/pages) (Server Side Rendering)
 - [Storybook](https://storybook.js.org/)
 - [Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)
 - [Sass](https://sass-lang.com/)
-- [ESLint Airbnb configuration](https://github.com/airbnb/javascript)
+- [ESLint Next configuration](https://nextjs.org/docs/basic-features/eslint)
 - [Editorconfig](https://editorconfig.org/)
-- [Jest](https://jestjs.io/) with [Enzyme](https://enzymejs.github.io/enzyme/)
+- [Jest](https://jestjs.io/) with [@testing-library](https://testing-library.com/)
 - [Test](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/lint.yml), [Build](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/build.yml) and [Lint](https://github.com/Gabb-c/next-ts-setup/blob/master/.github/workflows/lint.yml) workflows
-- [Commit Lint](https://commitlint.js.org/#/) with [Husky](https://typicode.github.io/husky/#/)
+- [Commitlint](https://commitlint.js.org/#/) with [Husky](https://typicode.github.io/husky/#/) and [Lint-staged](https://github.com/okonet/lint-staged)
 
 ## Getting Started
 
@@ -30,7 +28,7 @@ First, run:
 ```bash
 npm install # If you're using npm
 # or
-yarn # If you're using yarn
+yarn --check-files # If you're using yarn
 ```
 
 Then, run the development server:
@@ -44,43 +42,6 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `src/pages/index.js`. The page auto-updates as you edit the file.
-
-## ESLint
-
-If you're having trouble with ESLint rules, check the [`ESLint Documentation`](https://eslint.org/docs/user-guide/getting-started).
-
-The recommended VSCode config on `.vscode/settings.json`, but make sure you have this options checked:
-
-`File > Preferences > Settings > Extensions > ESLint`
-
-![ESLint Formater](/examples/images/eslint-save.png)
-
-`File > Preferences > Settings > Text Editor`
-
-![Editor Format](/examples/images/eslint-format.png)
-
-## Recommended Extensions
-
-There's a file with the recommended extensions and a nstalation script in `.vscode` folder.
-
-You can run the script like this:
-
-```bash
-chmod +x install-ext.sh # Permission to execute
-# And then
-./install-ext.sh # Execute the script
-```
-
-## Update your repository with this template
-
-As Next.js releases more features, this template will be updated. So keep your repository up to date
-by doing these steps:
-
-```bash
-git remote add template https://github.com/Gabb-c/gabbc-page.git
-git fetch --all
-git merge template/[branch to merge] # If git refuses, add the flag --allow-unrelated-histories
-```
 
 ## Learn More
 
