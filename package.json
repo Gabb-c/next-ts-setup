@@ -59,7 +59,7 @@
     "babel-loader": "^8.2.4",
     "css-loader": "^6.7.1",
     "eslint": "^8.11.0",
-    "eslint-config-next": "^12.1.0",
+    "eslint-config-next": "^12.1.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-jest": "^26.1.3",
